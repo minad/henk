@@ -1,0 +1,14 @@
+name:            henk
+version:         0.0.0.1
+category:        Language
+build-type:      Simple
+cabal-version:   >=1.8
+
+executable henk
+  ghc-options:   -Wall
+  main-is:       Henk/Main.hs
+  build-depends: base,
+                 mtl,
+                 text,
+                 megaparsec,
+                 pretty
